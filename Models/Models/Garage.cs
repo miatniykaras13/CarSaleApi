@@ -1,12 +1,12 @@
 ﻿namespace Models.Models;
 
-public class EGarage
+public class Garage
 {
-    public int EGarageId { get; set; }
+    public int GarageId { get; set; }
     public List<Car> Cars { get; set; }
     public User Owner { get; set; }
 
-    public EGarage()
+    public Garage()
     {
         Cars = new List<Car>();
         Owner = new User();
